@@ -9,5 +9,5 @@
 # Downloading and start
 - Download project
 - For launch require (command: npm i ), (npm install --save-dev typescript)
-- Than start server (command: npm run build).
+- Than start server (command: npm run dev).
 - For ngrok, need to write this (command: npx ngrok config add-authtoken 'your token') and than (command: npm run tunnel)
