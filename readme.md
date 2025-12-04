@@ -5,6 +5,7 @@
 - socket.io - helping create chat with two-side connection against client and server.
 - cors - helping to manage Cross-Origin Resource Sharing, apply or prohibit requests from other domains.
 - ngrok - Service for making our local server to public URL.
+- dotenv - For secret values
 
 # Downloading and start
 - Download project
