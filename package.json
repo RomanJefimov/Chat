@@ -7,7 +7,7 @@
         "dev": "nodemon --watch src --ext ts --exec ts-node src/server.ts",
         "build": "tsc",
         "start": "node dist/server.js",
-        "tunnel": "ngrok http --authtoken 35xo668S0u2LNQxtLYkHLNwHbhN_52rVJg2zxtqSzNWF6ErX3 3000"
+        "tunnel": "powershell -Command \"ngrok http --authtoken $env:TOKEN 3000\""
     },
     "keywords": [
         "chat",
@@ -19,6 +19,7 @@
     "license": "MIT",
     "dependencies": {
         "cors": "^2.8.5",
+        "dotenv": "^17.2.3",
         "express": "^4.18.2",
         "ngrok": "^5.0.0-beta.2",
         "socket.io": "^4.7.5"
